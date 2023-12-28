@@ -9,6 +9,7 @@ import { ProfileCardComponent } from './profile-card/profile-card/profile-card.c
 import { AnnouncementComponent } from './announcement/announcement/announcement.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MaterialModule } from './material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

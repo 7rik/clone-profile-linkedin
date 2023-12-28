@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBell, faBriefcase, faCircleUser, faCommentDots, faHome, faSearch, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-toolbar',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class ToolbarComponent {
 
+  public icons = {
+    search: faSearch,
+    home: faHome,
+    network: faUserGroup,
+    jobs: faBriefcase,
+    messages: faCommentDots,
+    notification: faBell,
+    profile: faCircleUser
+  }
 }

@@ -4,25 +4,53 @@
     <input type="text" placeholder="Pesquisar">
   </div>
   <section class="section-icons">
-      <div>
-        <mat-icon class="icons"class="icons">home</mat-icon>
-        <span class="span">Início</span>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <fa-icon class="icons" [icon]="icons.home"></fa-icon>
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Início</span>
+        </div>
       </div>
-      <div>
-        <mat-icon class="icons">people_alt</mat-icon>
-        <span class="span">Minha rede</span>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <fa-icon class="icons" [icon]="icons.network"></fa-icon>
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Minha rede</span>
+        </div>
       </div>
-      <div>
-        <mat-icon class="icons">business_center</mat-icon>
-        <span class="span">Vagas</span>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <fa-icon class="icons" [icon]="icons.jobs"></fa-icon>
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Vagas</span>
+        </div>
       </div>
-      <div>
-        <mat-icon class="icons">textsms</mat-icon>
-        <span class="span">Mensagens</span>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <fa-icon class="icons" [icon]="icons.messages"></fa-icon>
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Mensagens</span>
+        </div>
       </div>
-      <div>
-        <mat-icon class="icons">notifications</mat-icon>
-        <span class="span">Notificações</span>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <fa-icon class="icons" [icon]="icons.notification"></fa-icon>
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Notificações</span>
+        </div>
+      </div>
+      <div class="navigationButton">
+        <div class="navigationButtonContent">
+          <img class="profile-image" src="/assets/images/profile.jpg" alt="profile-picture">
+        </div>
+        <div class="navigationButtonContent">
+          <span class="span">Eu</span>
+        </div>
       </div>
   </section>
 </mat-toolbar>
