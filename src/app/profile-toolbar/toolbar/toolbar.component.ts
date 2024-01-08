@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faBell, faBriefcase, faCircleUser, faCommentDots, faHome, faSearch, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faBell, faBriefcase, faCircleUser, faCommentDots, faGrip, faGripVertical, faHome, faSearch, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-toolbar',
@@ -15,6 +15,7 @@ export class ToolbarComponent {
     jobs: faBriefcase,
     messages: faCommentDots,
     notification: faBell,
-    profile: faCircleUser
+    profile: faCircleUser,
+    business: faGrip
   }
 }
