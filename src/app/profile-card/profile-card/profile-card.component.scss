@@ -1,18 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .principal-profile {
-  border-radius: 15px;
+  display: flex;
+  border-radius: 5px;
   margin-left: 400px;
   margin-top: 20px;
   width: 805px;
 }
 
 .background-image {
-  width: 100%;
+  // width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   min-height: 201px;
@@ -32,4 +27,20 @@
     border-radius: 50%;
     border: 4px solid white;
   }
+}
+
+.profile-informations {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+
+    .title {
+      margin: 0;
+    }
+}
+
+.experience-information {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }

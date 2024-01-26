@@ -16,6 +16,6 @@ export class ToolbarComponent {
     messages: faCommentDots,
     notification: faBell,
     profile: faCircleUser,
-    business: faGrip
+    business: faGrip,
   }
 }
