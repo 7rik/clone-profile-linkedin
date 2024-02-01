@@ -1,16 +1,14 @@
 .principal-profile {
   display: flex;
   border-radius: 5px;
-  margin-left: 400px;
-  margin-top: 20px;
-  width: 805px;
+  width: 100%;
 }
 
 .background-image {
-  // width: 100%;
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  min-height: 201px;
+  // min-height: 201px;
   max-height: 201px;
 }
 

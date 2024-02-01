@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-announcement',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./announcement.component.scss']
 })
 export class AnnouncementComponent {
-
+  public icons = {
+    dots: faEllipsis
+  }
 }

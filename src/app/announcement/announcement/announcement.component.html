@@ -1,5 +1,28 @@
-<div>
-  <mat-card>
-    <span>Anúncios</span>
-  </mat-card>
-</div>
+<mat-card class="announcement">
+  <div class="announce__title flex justify-end m-1">
+    <span class="mr-3 font-normal">Anúncio</span>
+    <fa-icon class="mr-2 cursor-pointer" [icon]="icons.dots"></fa-icon>
+  </div>
+  <div class="announce__subtitle flex justify-center">
+    <span class="text-xs text-neutral-500 font-medium">Erik, restart your Premium free trial today</span>
+  </div>
+  <div class="announce__images flex justify-center mt-4 space-x-3">
+    <img class="profile__image rounded-full" src="/assets/images/profile.jpg" alt="Foto do perfil">
+    <img class="w-30" src="/assets/images/linkedin-premium-logo.jpeg" alt="Logo do Linkedin premium">
+  </div>
+  <div class="text__viewed flex m-4">
+    <span class="text-center font-normal text-neutral-700">See who's viewed your profile in the last 90 days</span>
+  </div>
+  <div class="announce__button flex justify-center mb-6">
+    <button
+    class="
+    w-40
+    bg-white border
+    border-solid
+    border-blue-700
+    rounded-full
+    p-2
+    font-semibold
+    text-blue-700">Restart Trial</button>
+  </div>
+</mat-card>
