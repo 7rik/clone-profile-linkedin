@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faPencil } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-profile-card',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-card.component.scss']
 })
 export class ProfileCardComponent {
-
+  public icons = {
+    pencil: faPencil,
+  }
 }

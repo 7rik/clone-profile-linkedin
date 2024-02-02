@@ -1,7 +1,7 @@
 .principal-profile {
   display: flex;
   border-radius: 5px;
-  width: 100%;
+  width: 800px;
 }
 
 .background-image {
@@ -12,33 +12,51 @@
   max-height: 201px;
 }
 
-.background-profile-image {
-  // width: 160px;
-  // height: 160px;
-  // box-sizing: border-box;
-  // border-radius: 49.9%;
-  .profile-image {
-    margin-top: -110px;
-    margin-left: 30px;
-    height: 152px;
-    width: 152px;
-    border-radius: 50%;
-    border: 4px solid white;
+.edit__profile {
+  width: 600px;
+  margin-left: 190px;
+}
+
+.edit__pencil {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.edit__pencil:hover {
+  background: #ebeaea;
+  transition: 0.5s;
+}
+
+.profile-image {
+  margin-top: -110px;
+  margin-left: 30px;
+  height: 152px;
+  width: 152px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.info__user {
+  width: 700px;
+  margin-left: 30px;
+}
+
+.info__additional{
+
+.adt__contact:hover {
+  cursor: pointer;
+  text-decoration: underline;
   }
 }
 
-.profile-informations {
-  display: flex;
+.experience-information {
+  width: 250px;
   flex-direction: column;
-  margin-left: 30px;
-
-    .title {
-      margin: 0;
-    }
 }
 
-.experience-information {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
+.exp__texts {
+  font-size: 200;
+  font-weight: 600;
 }

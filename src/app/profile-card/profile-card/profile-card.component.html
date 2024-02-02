@@ -5,18 +5,32 @@
     </div>
     <div class="background-profile-image">
       <img class="profile-image" src="/assets/images/profile.jpg" alt="Foto de perfil">
-    </div>
-    <div class="profile-informations">
-      <div class="title">
-        <h1>Erik Bezerra</h1>
-      </div>
-      <div class="subTitle">
-        <p>Estagiário em Dev Software @F13Tecnologia | Java | Angular | Spring Boot | PostgreSQL | CSS | Git</p>
+      <div class="edit__profile flex justify-end ml-20 -mt-8">
+        <div class="edit__pencil flex justify-center items-center">
+          <fa-icon class="text-2xl text-zinc-600" [icon]="icons.pencil"></fa-icon>
+        </div>
       </div>
     </div>
-    <div class="experience-information">
-      <p>F13 Tecnologia</p>
-      <p>Unifametro</p>
+    <div class="profile-informations flex">
+      <div class="info__user flex flex-col">
+        <span class="info__title text-2xl font-semibold">Erik Bezerra</span>
+        <span class="info__subtitile text-base">Estagiário em Dev Software @F13Tecnologia | Java | Angular | Spring Boot | PostgreSQL | CSS | Git</span>
+        <div class="info__additional mt-1 flex  items-center">
+          <span class="adt__location text-zinc-500">Fortaleza, Ceará, Brasil</span>
+          <span class="adt__contact text-blue-700 font-bold ml-2">Informações de contato</span>
+        </div>
+        <span class="text-blue-700 font-bold mt-1">+ de 500 conexões</span>
+      </div>
+      <div class="experience-information flex mr-8">
+        <div class="flex flex-row items-center">
+          <img class="w-9 mr-2" src="/assets/images/f13_tecnologia_logo.jpeg" alt="Logo F13 Tecnologia">
+          <span class="exp__texts">F13 Tecnologia</span>
+        </div>
+        <div class="flex flex-row items-center mt-2">
+          <img class="w-9 mr-2" src="/assets/images/unifametro_logo.jpeg" alt="Logo Unifametro">
+          <span class="exp__texts">Unifametro</span>
+        </div>
+      </div>
     </div>
   </mat-card>
 </div>
