@@ -43,12 +43,32 @@
   margin-left: 30px;
 }
 
-.info__additional{
+.adt__link {
+  color: rgb(29 78 216);
+}
 
-.adt__contact:hover {
+.adt__link:hover {
   cursor: pointer;
   text-decoration: underline;
-  }
+}
+
+.button__change:hover {
+  background-color: rgb(19, 49, 133);
+  transition: 0.5s;
+}
+
+.bt__add:hover {
+  background-color: rgba(29, 104, 216, 0.151);
+  transition: 0.05s;
+}
+
+.bt__plus:hover {
+  background-color: rgba(127, 128, 107, 0.144);
+}
+
+.button__change__border:hover {
+  outline: 2px solid;
+  outline-offset: -2px;
 }
 
 .experience-information {
@@ -59,4 +79,29 @@
 .exp__texts {
   font-size: 200;
   font-weight: 600;
+}
+
+.exp__texts:hover,.show__details:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(29 78 216);
+}
+
+.informations, .recruiters__info {
+  cursor: pointer;
+}
+
+.edit__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.edit__info:hover {
+  background: #4b4b4b25;
+  transition: 0.5s;
 }

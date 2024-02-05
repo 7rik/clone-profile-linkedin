@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faPencil } from '@fortawesome/free-solid-svg-icons';
+import { faPencil, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-profile-card',
@@ -9,5 +9,6 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons';
 export class ProfileCardComponent {
   public icons = {
     pencil: faPencil,
+    close: faXmark
   }
 }

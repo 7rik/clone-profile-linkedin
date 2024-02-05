@@ -10,6 +10,7 @@ import { AnnouncementComponent } from './announcement/announcement/announcement.
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProfileLocalizationComponent } from './profile-localization/profile-localization/profile-localization.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProfilePageComponent,
     ToolbarComponent,
     ProfileCardComponent,
-    AnnouncementComponent
+    AnnouncementComponent,
+    ProfileLocalizationComponent
   ],
   imports: [
     BrowserModule,
