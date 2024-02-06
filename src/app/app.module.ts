@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProfileLocalizationComponent } from './profile-localization/profile-localization/profile-localization.component';
+import { ProfileAnalysisComponent } from './profile-analysis/profile-card/profile-card/profile-analysis.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProfileLocalizationComponent } from './profile-localization/profile-loc
     ToolbarComponent,
     ProfileCardComponent,
     AnnouncementComponent,
-    ProfileLocalizationComponent
+    ProfileLocalizationComponent,
+    ProfileAnalysisComponent
   ],
   imports: [
     BrowserModule,

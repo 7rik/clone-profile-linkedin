@@ -1,0 +1,12 @@
+.many__search__views:hover,
+.many__people__view:hover {
+  text-decoration: underline;
+  color: rgb(29 78 216);
+  cursor: pointer;
+}
+
+.showAll__analysis:hover {
+  background-color: rgba(192, 192, 192, 0.233);
+  cursor: pointer;
+  transition: 0.3s;
+}
