@@ -42,25 +42,6 @@
   margin-left: 30px;
 }
 
-.button__change:hover {
-  background-color: rgb(19, 49, 133);
-  transition: 0.5s;
-}
-
-.bt__add:hover {
-  background-color: rgba(29, 104, 216, 0.151);
-  transition: 0.05s;
-}
-
-.bt__plus:hover {
-  background-color: rgba(127, 128, 107, 0.144);
-}
-
-.button__change__border:hover {
-  outline: 2px solid;
-  outline-offset: -2px;
-}
-
 .experience-information {
   width: 250px;
   flex-direction: column;
