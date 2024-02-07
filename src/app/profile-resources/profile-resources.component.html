@@ -1,0 +1,35 @@
+<div>
+  <mat-card class="profile__resources">
+    <div class="resources__title flex flex-col">
+      <span class="title__text text-xl font-bold">Recursos</span>
+      <span class="subtitle__text text-gray-600 -mt-1">
+        <fa-icon class="text-gray-700 text-xs mr-1" [icon]="icons.showOnly"></fa-icon>
+        Exibido apenas para você
+      </span>
+    </div>
+    <div class="resources relative flex flex-col -mt-12">
+      <div class="create__mode flex flex-col">
+        <fa-icon class="absolute text-lg" [icon]="icons.signal"></fa-icon>
+        <div class="createMode__texts flex flex-col ml-8">
+          <span class="creaMode__title adt__link text-base font-bold">Modo de criação</span>
+          <span class="absolute ml-[132px] bg-gray-200 text-sm text-gray-700 rounded-md cursor-pointer font-bold p-0.5">Desativado</span>
+          <span class="createMode__description text-sm">Destaque-se, exiba conteúdos no seu perfil e tenha acesso a ferramentas de criação de conteúdo</span>
+        </div>
+      </div>
+      <hr class="mt-3 mb-3">
+      <div class="network relative flex">
+        <div class="create__mode flex flex-col">
+          <fa-icon class="absolute text-base" [icon]="icons.people"></fa-icon>
+          <div class="createMode__texts flex flex-col ml-8">
+            <span class="creaMode__title adt__link text-base font-bold">Minha rede</span>
+            <span class="createMode__description text-sm">Veja e gerencie suas conexões e interesses.</span>
+          </div>
+        </div>
+        </div>
+    </div>
+    <hr class="-mt-4">
+    <div class="showAll">
+      <span>Exibir todos os 5 recursos <fa-icon [icon]="icons.showAllresources"></fa-icon></span>
+    </div>
+  </mat-card>
+</div>

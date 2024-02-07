@@ -7,6 +7,34 @@
   width: 100%;
 }
 
+.showAll {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+    span {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: rgb(75 85 99);
+      font-weight: 600;
+    }
+}
+
+.showAll:hover {
+  background-color: rgba(192, 192, 192, 0.233);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.textColor__blue {
+  color: rgb(29 78 216);
+}
+
+.adt__link:hover {
+  cursor: pointer;
+  color: rgb(29 78 216);
+  text-decoration: underline;
+}
+
 body {
   background-color: rgb(243, 242, 237) !important;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif !important;

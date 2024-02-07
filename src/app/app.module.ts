@@ -12,6 +12,7 @@ import { MaterialModule } from './material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProfileLocalizationComponent } from './profile-localization/profile-localization/profile-localization.component';
 import { ProfileAnalysisComponent } from './profile-analysis/profile-card/profile-card/profile-analysis.component';
+import { ProfileResoucersComponent } from './profile-resources/profile-resources.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProfileAnalysisComponent } from './profile-analysis/profile-card/profil
     ProfileCardComponent,
     AnnouncementComponent,
     ProfileLocalizationComponent,
-    ProfileAnalysisComponent
+    ProfileAnalysisComponent,
+    ProfileResoucersComponent
   ],
   imports: [
     BrowserModule,

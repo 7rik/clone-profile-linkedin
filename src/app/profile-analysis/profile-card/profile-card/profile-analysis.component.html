@@ -1,32 +1,31 @@
 <div>
-  <mat-card class="analysis__card p-0">
-    <div class="analysis__title flex flex-col p-4 pb-0">
+  <mat-card class="analysis__card">
+    <div class="analysis__title flex flex-col p-6 pb-0">
       <span class="title__text text-xl font-bold">Análise</span>
       <span class="subtitle__text text-gray-600 -mt-1">
         <fa-icon class="text-gray-700 text-xs mr-1" [icon]="icons.showOnly"></fa-icon>
         Exibido apenas para você
       </span>
     </div>
-    <div class="profile__search__results flex relative mt-2 p-4">
+    <div class="profile__search__results flex relative -mt-12 p-6">
       <div class="profile__views flex flex-col mr-8">
         <fa-icon class="absolute text-base" [icon]="icons.profileViews"></fa-icon>
         <div class="flex flex-col w-52 ml-8">
-          <span class="many__people__view text-base font-bold">30 visualizações do perfil</span>
+          <span class="many__people__view adt__link text-base font-bold">30 visualizações do perfil</span>
           <span class="who__people__saw text-sm">Saiba quem viu seu perfil.</span>
         </div>
       </div>
       <div class="profile__results flex flex-col">
         <fa-icon class="absolute text-lg" [icon]="icons.profileResults"></fa-icon>
         <div class="flex flex-col w-48 ml-8">
-          <span class="many__search__views text-base font-bold">7 ocorrências em resultados de pesquisa</span>
-          <span class="frequency__search__view">Veja a frequência com que seu perfil é exibido em resultados de
-            pesquisa.</span>
+          <span class="many__search__views adt__link text-base font-bold">7 ocorrências em resultados de pesquisa</span>
+          <span class="frequency__search__view">Veja a frequência com que seu perfil é exibido em resultados de pesquisa.</span>
         </div>
       </div>
     </div>
     <hr>
-    <div class="showAll__analysis flex justify-center p-2">
-      <span class="text-base text-gray-500 font-semibold">Exibir todas as análises <fa-icon [icon]="icons.showAllAnalysis"></fa-icon> </span>
+    <div class="showAll">
+      <span>Exibir todas as análises <fa-icon [icon]="icons.showAllAnalysis"></fa-icon></span>
     </div>
   </mat-card>
 </div>

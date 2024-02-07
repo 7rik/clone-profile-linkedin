@@ -42,15 +42,6 @@
   margin-left: 30px;
 }
 
-.adt__link {
-  color: rgb(29 78 216);
-}
-
-.adt__link:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
 .button__change:hover {
   background-color: rgb(19, 49, 133);
   transition: 0.5s;
@@ -78,12 +69,6 @@
 .exp__texts {
   font-size: 200;
   font-weight: 600;
-}
-
-.exp__texts:hover,.show__details:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  color: rgb(29 78 216);
 }
 
 .informations, .recruiters__info {
